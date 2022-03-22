@@ -1,0 +1,9 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.busque {
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+}

@@ -1,0 +1,7 @@
+:root {
+    --azul-escuro: #051D3B;
+}
+
+body {
+    background-color: var(--azul-escuro);
+}
