@@ -2,6 +2,43 @@
     --azul-escuro: #051D3B;
 }
 
+html {
+    color: #FFFFFF;
+    font-family: 'Inter';
+}
+
+
+
 body {
     background-color: var(--azul-escuro);
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.menu__editor,
+.menu__comunidade {
+    display: flex;
+}
+
+.menu__titulo,
+.menu__editor,
+.menu__comunidade {
+    margin: 0px 0 0 32px;
+}
+
+.texto_editor,
+.texto_comunidade {
+    margin: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.texto_comunidade {
+    opacity: 0.56;
 }

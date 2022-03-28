@@ -1,9 +1,17 @@
 .cabecalho {
     display: flex;
+    margin: 1.5em 1em 0 2em;
+
     justify-content: space-between;
 }
 
 .busque {
     background: rgba(255, 255, 255, 0.16);
     border-radius: 8px;
+    width: 56em;
+    height: 4em;
+    font-family: 'Inter', sans-serif;
+    padding: 1.2em 0 1.2em 1.1em;
+
+
 }
