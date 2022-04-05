@@ -1,0 +1,9 @@
+.codigo-wrapper {}
+
+.preview {
+    display: block;
+    white-space: pre-wrap;
+    outline: none;
+    height: 15em;
+    margin: 0.5em;
+}

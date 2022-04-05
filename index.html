@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/hljs.css">
+    <link rel="stylesheet" href="css/temahigh.css">
     <title>Alura DEV</title>
 </head>
 
@@ -43,7 +45,7 @@
             </div>
         </section>
     -->
-        <!--    <section class="editorCodigo">
+        <section class="editorCodigo">
             <div class="editor">
                 <div class="balao_mac">
                     <div class="botao_mac">
@@ -51,13 +53,15 @@
                         <span class="balao_amarelo"></span>
                         <span class="balao_verde"></span>
                     </div>
-                    <textarea name="" id="" cols="35" rows="20"></textarea>
+                    <div class="codigo-wrapper">
+                        <pre><code class="preview hljs" contenteditable="true" aria-label="Editor de código"></code></pre>
+                    </div>
 
                 </div>
             </div>
-            <input class="botao_highlight" type="button" value="Visualizar com o highlight">
+            <input class="botao_highlight botao" type="button" value="Visualizar com o highlight">
         </section>
--->
+
         <section class="projeto">
             <div class="bloco_projeto">
                 <h2 class="seu_projeto">seu projeto</h2>
@@ -69,20 +73,21 @@
         <section class="personalizacao">
             <div class="bloco_personalizacao">
                 <h2 class="seu_personalizacao">personalização</h2>
-                <select name="" id="">
-                    <option value="">JavaScript</option>
-                    <option value="">HTML</option>
-                    <option value="">CSS</option>
-                    <option value="">Python</option>
+                <select name="linguagem" id="linguagem" class="linguagem">
+                    <option value="javascript">JavaScript</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="python">Python</option>
                 </select>
-                <p class="muda_cor"></p>
+                <input value="#6BD1FF" class="muda_cor" type="color" name="" id="">
                 <button>Salvar Projeto</button>
             </div>
         </section>
 
     </main>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
