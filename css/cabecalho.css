@@ -10,7 +10,9 @@
     align-items: center;
 }
 
-header .menu_nav img:last-child {}
+header .menu_nav img:last-child {
+    margin: 0 1em;
+}
 
 .editorCodigo {
     display: flex;

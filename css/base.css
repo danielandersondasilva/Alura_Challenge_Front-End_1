@@ -18,43 +18,9 @@ body {
 /*.busque{
     background-image: url(../img/author.svg);
 }*/
-/*
-.menu_esquerdo {
-    display: flex;
-    flex-direction: row;
-}
-
-.menu {
-    display: flex;
-    flex-direction: column;
 
 
 
-}
-
-.menu__editor,
-.menu__comunidade {
-
-    display: flex;
-}
-
-.menu__titulo,
-.menu__editor,
-.menu__comunidade {
-    margin: 0px 0 0 32px;
-}
-
-.texto_editor,
-.texto_comunidade {
-    margin: 16px;
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-.texto_comunidade {
-    opacity: 0.56;
-}
-*/
 
 /*Inicio do editor de código*/
 /*
