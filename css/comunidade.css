@@ -1,0 +1,23 @@
+.informacoes {
+    background-color: red;
+    width: 90%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes h2,p{
+    margin: 1em 0 0 1em;
+}
+
+.iconesProjeto img{
+    background-color: green;
+    display: flex;
+}
+
+.iconesProjeto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em 1em 1em 1.5em;
+}

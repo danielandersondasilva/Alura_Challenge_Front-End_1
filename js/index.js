@@ -9,6 +9,8 @@ function aplicaHighlight() {
     hljs.highlightElement(areaDoCodigo.querySelector('code'))
 }
 
+onload = aplicaHighlight();
+
 botao.addEventListener('click', () => {
     aplicaHighlight()
 })
@@ -23,14 +25,14 @@ const menuEsquerdo = document.querySelector('.menu_esquerdo');
 
 function vaiPraComunidade() {
     if (comunidade.getAttribute('src') == '/img/Vector.svg') {
-        comunidade.setAttribute('src','/img/fechar.svg');
+        comunidade.setAttribute('src', '/img/fechar.svg');
         menuEsquerdo.classList.add('ativado');
-        
-        
-    }else{
-        comunidade.setAttribute('src','/img/Vector.svg')
+
+
+    } else {
+        comunidade.setAttribute('src', '/img/Vector.svg')
         menuEsquerdo.classList.remove('ativado');
-        
+
     }
 }
 

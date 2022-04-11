@@ -62,32 +62,34 @@
             </div>
             <input class="botao_highlight botao" type="button" value="Visualizar com o highlight">
         </section>
-
         <section class="projeto">
-            <div class="bloco_projeto">
-                <h2 class="seu_projeto">seu projeto</h2>
-                <input type="text" name="" id="" placeholder="Nome do seu projeto">
-                <textarea name="" id="" cols="30" rows="4" placeholder="Descrição do seu projeto"></textarea>
-            </div>
+            <form action="" id="novoItem">
+                <div class="bloco_projeto">
+                    <h2 class="seu_projeto">seu projeto</h2>
+                    <input type="text" name="" id="nomeProjeto" placeholder="Nome do seu projeto" />
+                    <textarea name="" id="descricaoProjeto" cols="30" rows="4"
+                        placeholder="Descrição do seu projeto"></textarea>
+                </div>
+                <div class="bloco_personalizacao">
+                    <h2 class="seu_personalizacao">personalização</h2>
+                    <select name="linguagem" id="linguagemProjeto" class="linguagem">
+                        <option value="javascript">JavaScript</option>
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="python">Python</option>
+                    </select>
+                    <input value="#6BD1FF" class="muda_cor" type="color" name="" id="corProjeto">
+                    <button id="salvarProjeto">Salvar Projeto</button>
+                </div>
+            </form>
         </section>
 
-        <section class="personalizacao">
-            <div class="bloco_personalizacao">
-                <h2 class="seu_personalizacao">personalização</h2>
-                <select name="linguagem" id="linguagem" class="linguagem">
-                    <option value="javascript">JavaScript</option>
-                    <option value="html">HTML</option>
-                    <option value="css">CSS</option>
-                    <option value="python">Python</option>
-                </select>
-                <input value="#6BD1FF" class="muda_cor" type="color" name="" id="">
-                <button>Salvar Projeto</button>
-            </div>
-        </section>
+
 
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+    <script src="js/savaDados.js"></script>
     <script src="js/index.js"></script>
 </body>
 
