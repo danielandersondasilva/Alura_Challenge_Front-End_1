@@ -31,7 +31,7 @@ header .menu_nav img:last-child {
 .editor {
     background-color: #6BD1FF;
     width: 90%;
-    height: 25em;
+    height: 22em;
     border-radius: 8px;
     display: flex;
     align-items: flex-end;
@@ -79,7 +79,9 @@ header .menu_nav img:last-child {
     border: none;
     outline: none;
     color: #FFFFFF;
+   
 }
+
 
 
 .botao_mac {
@@ -98,6 +100,8 @@ header .menu_nav img:last-child {
 
     width: 90%;
     border: none;
+
+    
 }
 
 
@@ -188,6 +192,7 @@ textarea {
 
 .bloco_personalizacao button {
     margin-top: 2em;
+    margin-bottom: 2em;
     height: 4em;
     background: #5081FB;
     border-radius: 8px;

@@ -1,21 +1,44 @@
 .informacoes {
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.16);
+    ;
     width: 90%;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
 }
 
-.informacoes h2,p{
+.informacoes h2 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+
+}
+
+.informacoes p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0.5em 0 0 1.4em;
+}
+
+.informacoes h2,
+p {
     margin: 1em 0 0 1em;
 }
 
-.iconesProjeto img{
-    background-color: green;
+
+.grupo-1,
+.grupo-2 {
     display: flex;
+    align-items: center;
 }
 
-.iconesProjeto{
+.grupo-1 span,
+.grupo-2 span {
+    margin: 0 0.5em 0 0.5em;
+}
+
+.iconesProjeto {
     display: flex;
     align-items: center;
     justify-content: space-between;

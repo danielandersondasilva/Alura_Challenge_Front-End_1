@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <!--
+
     <header class="cabecalho">
         <img class="logo" src="img/Logo.svg" alt="Logotipo da Alura DEV">
         <div class="menu_nav">
@@ -27,94 +27,34 @@
             <img src="/img/Vector.svg" alt="">
 
         </div>
-    </header>-->
-    <ul class="comunidade botao">
-        <li class="item">
-            <main>
-                <section class="menu_esquerdo">
-                    <div class="menu">
-                        <div class="menu__titulo">
-                            <h2>M E N U</h2>
-
-                        </div>
-                        <div class="menu__editor">
-                            <img src="img/Icon_editor.svg" alt="" class="icon">
-                            <h3><a class="texto_editor" href="index.html"> <img src="" alt="">Editor de código</a></h3>
-                        </div>
-                        <div class="menu__comunidade">
-                            <img src="img/Icon_comunidade.svg" alt="" class="icon">
-                            <h3><a class="texto_comunidade" href="comunidade.html"> <img src="" alt="">Comunidade</a>
-                            </h3>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="editorCodigo">
-                    <div class="editor">
-                        <div class="balao_mac">
-                            <div class="botao_mac">
-                                <span class="balao_vermelho"></span>
-                                <span class="balao_amarelo"></span>
-                                <span class="balao_verde"></span>
-                            </div>
-                            <div class="codigo-wrapper">
-                                <pre><code class="preview hljs" contenteditable="true" aria-label="Editor de código">const unfold = (f, seed) => {
-                                      const go = (f, seed, acc) => {
-                                        const res = f(seed)
-                                        return res ? go(f, res[1], acc.concat([res[0]])) : acc
-                                      }
-                                      return go(f, seed, [])
-                                    }</code></pre>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="informacoes">
-                        <h2 class="nomeProjeto">Título do projeto</h2>
-                        <p class="descricaoProjeto">Essa é a descrição do meu projeto.</p>
-                        <div class="iconesProjeto">
-                            <img src="img/comentario.svg" alt=""><span>9</span>
-                            <img src="img/like.svg" alt=""><span>9</span>
-                            <img src="img/author.svg" alt="">
-                        </div>
-                    </div>
-                </section>
-                <section class="projeto">
-                    <form action="" id="novoItem">
-                        <div class="bloco_projeto">
-                            <h2 class="seu_projeto">seu projeto</h2>
-                            <input type="text" name="" id="nomeProjeto" placeholder="Nome do seu projeto" />
-                            <textarea name="" id="descricaoProjeto" cols="30" rows="4"
-                                placeholder="Descrição do seu projeto"></textarea>
-                        </div>
-                        <div class="bloco_personalizacao">
-                            <h2 class="seu_personalizacao">personalização</h2>
-                            <select name="linguagem" id="linguagemProjeto" class="linguagem">
-                                <option value="javascript">JavaScript</option>
-                                <option value="html">HTML</option>
-                                <option value="css">CSS</option>
-                                <option value="python">Python</option>
-                            </select>
-                            <input value="#6BD1FF" class="muda_cor" type="color" name="" id="corProjeto">
-                            <button id="salvarProjeto">Salvar Projeto</button>
-                        </div>
-                    </form>
-                </section>
+    </header>
 
 
 
-            </main>
-        </li>
-        <li class="item"></li>
-        <li class="item"></li>
-        <li class="item"></li>
-        <li class="item"></li>
-        <li class="item"></li>
+    <section class="menu_esquerdo">
+        <div class="menu">
+            <div class="menu__titulo">
+                <h2>M E N U</h2>
+
+            </div>
+            <div class="menu__editor">
+                <img src="img/Icon_editor.svg" alt="" class="icon">
+                <h3><a class="texto_editor" href="index.html"> <img src="" alt="">Editor de código</a></h3>
+            </div>
+            <div class="menu__comunidade">
+                <img src="img/Icon_comunidade.svg" alt="" class="icon">
+                <h3><a class="texto_comunidade" href="comunidade.html"> <img src="" alt="">Comunidade</a></h3>
+            </div>
+        </div>
+    </section>
+
+    <ul class="comunidade botao" id="lista">
+
     </ul>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
-    <script src="js/savaDados.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/mudaDePagina.js"></script>
+    <script src="js/comunidade.js"></script>
 </body>
 
 </html>
