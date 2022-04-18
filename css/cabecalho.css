@@ -79,7 +79,16 @@ header .menu_nav img:last-child {
     border: none;
     outline: none;
     color: #FFFFFF;
-   
+
+
+}
+
+code.preview {
+    height: 14em;
+}
+
+.codigo-wrapper {
+    height: 15em;
 }
 
 
@@ -101,7 +110,7 @@ header .menu_nav img:last-child {
     width: 90%;
     border: none;
 
-    
+
 }
 
 
@@ -197,4 +206,62 @@ textarea {
     background: #5081FB;
     border-radius: 8px;
     border: none;
+}
+
+/* alerta dados salvos */
+section.alerta {
+    display: none;
+    
+}
+
+section.alerta.ativado {
+    display: block;
+    position: absolute;
+    top:30em;
+    background-color: #1d375a;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 8px;
+}
+
+div.alerta {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em 1em 1.5em 1em;
+}
+
+h2.salvo {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+p.salvo {
+    margin-bottom: 1em;
+    width: 90%;
+}
+
+button.salvo {
+    width: 90%;
+    background-color: #5081FB;
+    height: 3em;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 8px;
+}
+
+
+@keyframes slide_entrada {
+    to {
+        margin: 0 0 0 100%;
+    }
+}
+
+@keyframes slide_saida {
+
+    to {
+        margin: 0 0 0 30%;
+    }
 }

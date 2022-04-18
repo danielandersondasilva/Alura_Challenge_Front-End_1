@@ -62,12 +62,26 @@
             </div>
             <input class="botao_highlight botao" type="button" value="Visualizar com o highlight">
         </section>
+
+        <section class="alerta">
+            <div class="alerta">
+                <h2 class="salvo">
+                    PROJETO SALVO!
+                </h2>
+                <p class="salvo">
+                    Seu projeto foi salvo, agora ele está disponível na página comunidade.
+                </p>
+                <button id="salvo" class="salvo">ok</button>
+            </div>
+        </section>
+
         <section class="projeto">
             <form action="" id="novoItem">
                 <div class="bloco_projeto">
                     <h2 class="seu_projeto">seu projeto</h2>
-                    <input type="text" name="" id="nomeProjeto" placeholder="Nome do seu projeto" />
-                    <textarea name="" id="descricaoProjeto" cols="30" rows="4"
+                    <input type="text" name="" required autocomplete="off" id="nomeProjeto"
+                        placeholder="Nome do seu projeto" />
+                    <textarea name="" required id="descricaoProjeto" cols="30" rows="4"
                         placeholder="Descrição do seu projeto"></textarea>
                 </div>
                 <div class="bloco_personalizacao">

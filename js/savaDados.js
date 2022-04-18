@@ -1,6 +1,9 @@
 //console.log(lista);
 const form = document.querySelector('#novoItem');
 const itens = JSON.parse(localStorage.getItem("itens")) || []
+
+const alerta = document.querySelector('.alerta');
+const botaoFechaAlerta = document.querySelector('#salvo');
 //itens.forEach(element => {
 //console.log(element.nome, element.descricao, element.linguagemProjeto, element.cor);
 
@@ -28,4 +31,10 @@ form.addEventListener('submit', (evento) => {
     itens.push(itemAtual)
 
     localStorage.setItem("itens", JSON.stringify(itens))
+
+    alerta.classList.add('ativado');
+})
+
+botaoFechaAlerta.addEventListener('click', function () {
+    alerta.classList.remove('ativado');
 })
